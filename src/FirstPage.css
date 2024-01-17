@@ -1,0 +1,49 @@
+body {
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+    background-image: url(''); /* Replace with the actual path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; /* This ensures that the background covers the entire viewport height */
+  }
+
+.out
+{
+   padding-left: 600px;
+   padding-top: 300px;
+   border-color: 1px solid black;
+}
+.sb
+{
+    height: 70px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: color-mix(in srgb-linear, rgb(91, 169, 230) 50%, rgb(132, 104, 202) 50%);
+    margin-bottom: 20px;
+}
+/* FirstPage.css */
+
+.page-container {
+    display: flex;
+  }
+  
+  .side-panel {
+    width: 50%; /* Set the width for the side panel */
+    overflow: hidden; /* Ensure the image doesn't overflow */
+  }
+  
+  .side-panel-image {
+    width: 100%; /* Make the image fill the side panel */
+    height: 100vh; /* Set the height to cover the entire viewport */
+    object-fit: cover; /* Maintain aspect ratio and cover the side panel */
+  }
+  
+  .content-container {
+    width: 50%; /* Set the width for the content container */
+    box-sizing: border-box; /* Include padding and border in the total width/height */
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+  }
+  
